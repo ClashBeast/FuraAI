@@ -93,7 +93,11 @@ dist
 
 # Gatsby files
 .cache/
+
 # Uncomment the public line below if your project uses Gatsby and not Next.js
+
+# Comment in the public line in if your project uses Gatsby and not Next.js
+
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
@@ -135,6 +139,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+
 # IDE specific files - adjust as needed for your team
 .idea/         # IntelliJ IDEA
 .project
@@ -144,3 +149,5 @@ dist
 *.iws          # IntelliJ IDEA
 .DS_Store     # macOS Finder
 Thumbs.db      # Windows thumbnail cache
+
+
