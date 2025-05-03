@@ -20,8 +20,8 @@ export default function FuraAI() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
-  const HUGGINGFACE_API_KEY = import.meta.env.VITE_HUGGINGFACE_API_KEY;
+  const OPENROUTER_API_KEY = process.env.REACT_APP_OPENROUTER_API_KEY;
+  const HUGGINGFACE_API_KEY = process.env.REACT_APP_HUGGINGFACE_API_KEY;
 
   useEffect(() => {
     const saved = localStorage.getItem(LOCAL_HISTORY_KEY);
